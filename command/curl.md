@@ -71,6 +71,12 @@ curl(选项)(参数)
 -l/--list-only                                # 列出ftp目录下的文件名称 
      --limit-rate                             # 设置传输速度 
      --local-port                             # 强制使用本地端口号 
+-L, --location                                # 跟随重定向
+    --location-trusted 与 --location          # 类似，并向其他主机发送身份验证
+    --login-options <options>                 # 服务器登录选项
+    --mail-auth <address>                     # 原始电子邮件的发件人地址
+    --mail-from <address>                     # 来自该地址的邮件
+    --mail-rcpt                               # <地址> 邮件到这个地址
 -m/--max-time                                 # 设置最大传输时间 
      --max-redirs                             # 设置最大读取的目录数 
      --max-filesize                           # 设置最大下载的文件总量 
